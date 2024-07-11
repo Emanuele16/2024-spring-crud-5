@@ -35,7 +35,7 @@ public class SpringCrud5Application implements CommandLineRunner {
         Customer customer2 = new Customer("Jane", "Smith", "jane.smith@example.com", "+9876543210");
 
         customerService.saveCustomer(customer1);
-		customerService.saveCustomer(customer2);
+	customerService.saveCustomer(customer2);
 
 
         Product product1 = new Product("Laptop", 1000, 20);
@@ -43,7 +43,7 @@ public class SpringCrud5Application implements CommandLineRunner {
         Product product3 = new Product("Keyboard", 50, 20);
 
         productService.saveProduct(product1);
-		productService.saveProduct(product2);
+	productService.saveProduct(product2);
         productService.saveProduct(product3);
 
         Ordine ordine1 = new Ordine(customer1, List.of(product1));
