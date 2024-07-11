@@ -50,6 +50,6 @@ public class SpringCrud5Application implements CommandLineRunner {
         Ordine ordine2 = new Ordine(customer2,List.of(product2, product3));
 
         ordineService.saveOrdine(ordine1);
-		ordineService.saveOrdine(ordine2);
+	ordineService.saveOrdine(ordine2);
     }
 }
